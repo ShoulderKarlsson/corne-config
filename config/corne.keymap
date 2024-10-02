@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp LG(DOLLAR)  &kp PERCENT    &kp RS(CARET)       &kp AMPERSAND     &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &kp PLUS
-&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3   &kp EQUAL           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-&kp LSHFT        &trans        &trans        &trans          &kp LESS_THAN  &kp GREATER_THAN    &kp SLASH         &kp LG(COLON)   &kp SEMICOLON         &trans                 &trans            &trans
-                                             &kp LGUI        &trans         &kp SPACE           &kp RET           &trans          &kp RALT
+&kp EXCLAMATION  &kp AT_SIGN             &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET           &kp AMPERSAND     &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE      &kp PLUS
+&bt BT_CLR       &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &kp EQUAL           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp RIGHT_BRACKET      &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES
+&kp LSHFT        &kp LS(LC(LG(DOLLAR)))  &trans        &trans        &kp LESS_THAN  &kp GREATER_THAN    &kp SLASH         &kp COLON       &kp SEMICOLON         &trans                 &kp LS(LG(DOLLAR))  &kp QUESTION
+                                                       &kp LGUI      &trans         &kp SPACE           &kp RET           &trans          &kp RALT
             >;
         };
 
@@ -51,7 +51,7 @@
 
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR       &kp PRCNT           &kp CARET     &kp AMPS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RPAR  &kp MINUS
-&kp LCTRL  &trans    &trans  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LEFT      &kp DOWN         &kp UP_ARROW          &kp RIGHT              &kp BSLH  &kp GRAVE
+&kp CAPS   &trans    &trans  &trans    &kp LESS_THAN  &kp GREATER_THAN    &kp LEFT      &kp DOWN         &kp UP_ARROW          &kp RIGHT              &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans         &trans              &kp QUESTION  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE  &kp TILDE
                              &kp LGUI  &trans         &kp SPACE           &kp RET       &trans           &kp RALT
             >;
